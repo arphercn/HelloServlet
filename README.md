@@ -14,4 +14,6 @@ servelet,通过eclipse新建servelet时,会提示不能新建重复的servelet
 		<url-pattern>/Hello/HelloForm</url-pattern>
 	</servlet-mapping>
 1.2.3 html文件在WebContent目录下  
+2 客户端HTTP请求
+2.2 服务器 HTTP 响应
 
