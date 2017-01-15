@@ -1,9 +1,9 @@
-#### [Servlet æ•™ç¨‹](http://www.runoob.com/servlet/servlet-tutorial.html) 
-1.1 è¡¨å•æ•°æ®1  
-1.2 è¡¨å•æ•°æ®2  
-1.2.1 web.xmlåœ¨WEB-INFç›®å½•ä¸‹,å½“æœ‰HelloFormå­—æ ·çš„servelet-nameå­˜åœ¨æ—¶,ä»£è¡¨é¡¹ç›®ä¸­å·²ç»æœ‰æ­¤
-servelet,é€šè¿‡eclipseæ–°å»ºserveletæ—¶,ä¼šæç¤ºä¸èƒ½æ–°å»ºé‡å¤çš„servelet  
-1.2.2 web.xmlé‡Œæ ¼å¼æ¯”è¾ƒä¸¥æ ¼,å¦‚ä¸‹  
+#### [Servlet ½Ì³Ì](http://www.runoob.com/servlet/servlet-tutorial.html) 
+1.1 ±íµ¥Êý¾Ý1  
+1.2 ±íµ¥Êý¾Ý2  
+1.2.1 web.xmlÔÚWEB-INFÄ¿Â¼ÏÂ,µ±ÓÐHelloForm×ÖÑùµÄservelet-name´æÔÚÊ±,´ú±íÏîÄ¿ÖÐÒÑ¾­ÓÐ´Ë
+servelet,Í¨¹ýeclipseÐÂ½¨serveletÊ±,»áÌáÊ¾²»ÄÜÐÂ½¨ÖØ¸´µÄservelet  
+1.2.2 web.xmlÀï¸ñÊ½±È½ÏÑÏ¸ñ,ÈçÏÂ  
 
 	<servlet>
 		<servlet-name>HelloForm</servlet-name>
@@ -13,13 +13,15 @@ servelet,é€šè¿‡eclipseæ–°å»ºserveletæ—¶,ä¼šæç¤ºä¸èƒ½æ–°å»ºé‡å¤çš„servelet
 		<servlet-name>HelloForm</servlet-name>
 		<url-pattern>/Hello/HelloForm</url-pattern>
 	</servlet-mapping>
-1.2.3 htmlæ–‡ä»¶åœ¨WebContentç›®å½•ä¸‹  
-2 å®¢æˆ·ç«¯HTTPè¯·æ±‚  
-servletç«¯å¯ä»¥èŽ·å–HTTPè¯·æ±‚çš„ä¿¡æ¯  
-2.2 æœåŠ¡å™¨ HTTP å“åº”  
-å¯ä»¥è®¾ç½®è¿”å›žheaderå¤´ä¿¡æ¯å’Œå†…å®¹,å¦‚ è‡ªåŠ¨åˆ·æ–°,æ˜¾ç¤ºæ—¶é—´  
-2.3 HTTP çŠ¶æ€ç   
-å¯ä»¥è®¾ç½®è¿”å›žçŠ¶æ€ç 
-2.4 ç¼–å†™è¿‡æ»¤å™¨  
-å¯ä»¥åœ¨ecliseçš„consoleæ‰“å°æ‰€ä»¥è¯·æ±‚çš„æ¶ˆæ¯,å¯ä»¥è®°å½•æ—¥è®°, æ‹¦æˆªè¯·æ±‚,å¤„ç†å“åº”  
+1.2.3 htmlÎÄ¼þÔÚWebContentÄ¿Â¼ÏÂ  
+2 ¿Í»§¶ËHTTPÇëÇó  
+servlet¶Ë¿ÉÒÔ»ñÈ¡HTTPÇëÇóµÄÐÅÏ¢  
+2.2 ·þÎñÆ÷ HTTP ÏìÓ¦  
+¿ÉÒÔÉèÖÃ·µ»ØheaderÍ·ÐÅÏ¢ºÍÄÚÈÝ,Èç ×Ô¶¯Ë¢ÐÂ,ÏÔÊ¾Ê±¼ä  
+2.3 HTTP ×´Ì¬Âë  
+¿ÉÒÔÉèÖÃ·µ»Ø×´Ì¬Âë
+2.4 ±àÐ´¹ýÂËÆ÷  
+¿ÉÒÔÔÚecliseµÄconsole´òÓ¡ËùÒÔÇëÇóµÄÏûÏ¢,¿ÉÒÔ¼ÇÂ¼ÈÕ¼Ç, À¹½ØÇëÇó,´¦ÀíÏìÓ¦  
+3.1 Òì³£´¦Àí
+ÖÆ×÷404µÈÒì³£Ò³Ãæ
 
