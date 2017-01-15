@@ -17,4 +17,13 @@
     <servlet-name>CheckBox</servlet-name>
     <url-pattern>/Hello/CheckBox</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ReadParams</servlet-name>
+    <servlet-class>hello.ReadParams</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReadParams</servlet-name>
+    <url-pattern>/Hello/ReadParams</url-pattern>
+  </servlet-mapping>
 </web-app>
