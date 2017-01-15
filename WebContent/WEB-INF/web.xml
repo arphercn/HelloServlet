@@ -1,29 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
-  <servlet>
-    <servlet-name>HelloForm</servlet-name>
-    <servlet-class>hello.HelloForm</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>HelloForm</servlet-name>
-    <url-pattern>/Hello/HelloForm</url-pattern>
-  </servlet-mapping>
-  
-  <servlet>
-    <servlet-name>CheckBox</servlet-name>
-    <servlet-class>hello.CheckBox</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>CheckBox</servlet-name>
-    <url-pattern>/Hello/CheckBox</url-pattern>
-  </servlet-mapping>
-  
-  <servlet>
-    <servlet-name>ReadParams</servlet-name>
-    <servlet-class>hello.ReadParams</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>ReadParams</servlet-name>
-    <url-pattern>/Hello/ReadParams</url-pattern>
-  </servlet-mapping>
+<?xml version="1.0" encoding="UTF-8"?>  
+<web-app>  
+  <servlet>  
+    <!-- 类名 -->  
+    <servlet-name>DisplayHeader</servlet-name>  
+    <!-- 所在的包 -->  
+    <servlet-class>com.runoob.test.DisplayHeader</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>DisplayHeader</servlet-name>  
+    <!-- 访问的网址 -->  
+    <url-pattern>/Hello/DisplayHeader</url-pattern>  
+  </servlet-mapping>  
 </web-app>
