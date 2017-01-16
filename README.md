@@ -21,10 +21,14 @@ servlet端可以获取HTTP请求的信息
 2.3 HTTP 状态码  
 可以设置返回状态码
 2.4 编写过滤器  
-可以在eclise的console打印所以请求的消息,可以记录日记, 拦截请求,处理响应  
+可以在eclipse的console打印所以请求的消息,可以记录日记, 拦截请求,处理响应  
 3.1 异常处理
 制作404等异常页面
 3.2 Cookie 处理  
 通过http://localhost:8080/HelloServlet/TomcatTest/test.html里提交表单发送Cookie,
 模拟登陆,服务端返回Cookie
+3.3 Session 跟踪    
+在页面可以打印 服务端返回的 session.getId(),服务端可以通过session.isNew()
+判断客户端是否不知道session或不参与session,返回持续保存的访问次数
+
 
