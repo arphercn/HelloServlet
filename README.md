@@ -24,4 +24,7 @@ servlet端可以获取HTTP请求的信息
 可以在eclise的console打印所以请求的消息,可以记录日记, 拦截请求,处理响应  
 3.1 异常处理
 制作404等异常页面
+3.2 Cookie 处理  
+通过http://localhost:8080/HelloServlet/TomcatTest/test.html里提交表单发送Cookie,
+模拟登陆,服务端返回Cookie
 

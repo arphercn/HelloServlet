@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>  
 <web-app>  
+	<servlet> 
+	  <!-- 类名 -->  
+	  <servlet-name>HelloForm</servlet-name>
+	  <!-- 所在的包 -->
+	  <servlet-class>com.runoob.test.HelloForm</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	  <servlet-name>HelloForm</servlet-name>
+	  <!-- 访问的网址 -->
+	  <url-pattern>/TomcatTest/HelloForm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet> 
+	  <!-- 类名 -->  
+	  <servlet-name>ReadCookies</servlet-name>
+	  <!-- 所在的包 -->
+	  <servlet-class>com.runoob.test.ReadCookies</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	  <servlet-name>ReadCookies</servlet-name>
+	  <!-- 访问的网址 -->
+	  <url-pattern>/TomcatTest/ReadCookies</url-pattern>
+	</servlet-mapping>
+	
+	<servlet> 
+	  <!-- 类名 -->  
+	  <servlet-name>DeleteCookies</servlet-name>
+	  <!-- 所在的包 -->
+	  <servlet-class>com.runoob.test.DeleteCookies</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	  <servlet-name>DeleteCookies</servlet-name>
+	  <!-- 访问的网址 -->
+	  <url-pattern>/TomcatTest/DeleteCookies</url-pattern>
+	</servlet-mapping>
+
 	<servlet>
 	        <servlet-name>ErrorHandler</servlet-name>
 	        <servlet-class>com.runoob.test.ErrorHandler</servlet-class>
