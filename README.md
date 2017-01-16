@@ -29,6 +29,9 @@ servlet端可以获取HTTP请求的信息
 模拟登陆,服务端返回Cookie
 3.3 Session 跟踪    
 在页面可以打印 服务端返回的 session.getId(),服务端可以通过session.isNew()
-判断客户端是否不知道session或不参与session,返回持续保存的访问次数
+判断客户端是否不知道session或不参与session,返回持续保存的访问次数  
+3.4 数据库访问  
+eclipse运行时,mysql驱动包放到tomcat的lib目录下  
+调试时,遇到端口8009等占用,`netstat -aon | findstr "8009"`后,关闭端口可OK
 
 
